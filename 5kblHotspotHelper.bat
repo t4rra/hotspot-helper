@@ -62,7 +62,7 @@ echo.
 echo                                      ---WINDOWS HOTSPOT FIX/SETUP---
 echo.
 
-echo Created by 5kbl(Github)/tostiwee(Reddit). Go to https://skbl.ml/VRScript for more info.
+echo Created by 5kbl.
 
 echo.
 echo Current Wireless Interface: %interfacename%
@@ -84,6 +84,8 @@ goto other
 :1
 netsh wlan set autoconfig enabled=yes interface="%interfacename%"
 timeout 2
+
+netsh wlan disconnect
 
 powershell .\hotspotstart.ps1
 timeout 2
