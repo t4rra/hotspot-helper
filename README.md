@@ -1,4 +1,4 @@
-# Hotspot Helper
+# 5kbl's Hotspot Helper
 Fixes the lag spikes caused by windows hotspot when using wireless Virtual Reality streaming apps.
 
 ## Features
