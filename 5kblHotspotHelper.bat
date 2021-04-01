@@ -9,7 +9,7 @@ goto check_Permissions
         goto setup
     ) else (
 		echo.
-        echo Please run this script again with admin priviliges.
+        echo Please run this script again with admininstrator priviliges.
 		echo.
 	    pause
 		exit
@@ -82,12 +82,10 @@ If /I "%Input%"=="5" goto 5
 goto other
 
 :1
-netsh wlan set autoconfig enabled=yes interface="%interfacename%"
-timeout 2
+powershell .\hotspotstart.ps1
 
 netsh wlan disconnect
 
-powershell .\hotspotstart.ps1
 timeout 2
 
 netsh wlan set autoconfig enabled=no interface="%interfacename%"
