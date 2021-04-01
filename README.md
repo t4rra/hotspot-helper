@@ -27,7 +27,6 @@ Make sure you're first conencted to a WiFi network. Specifications don't matter 
 netsh wlan set autoconfig enabled=no interface="[Network Interface]"
 ```
 Replace [Network Interface] with the name of your network adapter (Circled in red below) ![Highlighted-Adaptername](https://user-images.githubusercontent.com/64815861/113248316-88433e00-9271-11eb-9c9a-3d76927cf991.PNG)
-)
 
 That's it! When you're done with VR, run the command below.
 ```
