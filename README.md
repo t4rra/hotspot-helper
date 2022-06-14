@@ -1,6 +1,10 @@
 # Hotspot Helper
 Fixes the lag spikes caused by windows hotspot when using wireless Virtual Reality streaming apps.
 
+> This repository is no longer maintained! 
+
+---
+
 ## Features
 - Fixes the lag spikes caused by Windows Hotspot scanning
 - Minimal setup
